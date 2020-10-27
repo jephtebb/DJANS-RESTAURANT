@@ -7,11 +7,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightgrey;
 }
-.mission {
+.griot {
     background-color: lightslategray;
     text-align:center;
-    flex:30%;
-    height:427px;
+    flex:50%;
+}
+.boulet {
+    flex:50%;
+    text-align:center;
+    background-color: lightslategray;
+}
+.boulet p, .griot p{
+    margin-bottom: 15px;
+}
+.griot img, .boulet img {
+    height: 400px;
 }
 .header-class h1 {
     color: purple;
@@ -44,28 +54,15 @@ color: purple;
     display: flex;
     flex-wrap: wrap;
 }
-.hero-main{
-    flex: 40%;
-}
-.hero-side{
-    flex:30%;
-    background-color:lightslategray;
-    font-size: normal;
-    height:427px;
-}
-.hero-image{
-    width:100%;
-    padding:20px;
-    height:400px;
-}
-.hero-main h2,
-.hero-main p{
-    text-align: center;
-    background: purple;
-}
-.mission p {
-    line-height: 30px;
-    padding-top: 11px;
 
-}
+@media screen and (max-width: 985px) {
+    .hero-class, .header-class {   
+      flex-direction: column;
+    }
+  }
+@media screen and (max-width: 685px) {
+    .hero-class, .header-class {   
+      flex-direction: column;
+    }
+  }
 
