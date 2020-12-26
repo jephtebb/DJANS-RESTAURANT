@@ -54,6 +54,93 @@ html{
     text-align: center;
     font-size: 1.5rem;
 }
+.intro{
+    min-height: 100vh;
+    background: url('/assets/Images/into-food.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rect-rice{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px #356879;
+    height: 30rem;
+    width: 30rem;
+    font-size:1.5rem;
+    background: url('/assets/Images/rice.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #356879;
+
+}
+.rect-leg{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px #356879;
+    height: 30rem;
+    width: 30rem;
+    font-size:1.5rem;
+    background: url('/assets/Images/legumes-militon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #356879;
+}
+.rect-fritay{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px #356879;
+    height: 30rem;
+    width: 30rem;
+    font-size:1.5rem;
+    background: url('/assets/Images/fritay.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #356879;
+
+}
+.rect-fish{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px #356879;
+    height: 30rem;
+    width: 30rem;
+    font-size:1.5rem;
+    background: url('/assets/Images/fish-food.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #356879;
+
+}
+.circle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ver{
+    margin: auto;
+}
 
 
 @media screen and (max-width:932px){
