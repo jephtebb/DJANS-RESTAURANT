@@ -6,6 +6,9 @@
 html{
     font-size: 62.5%;
 }
+body{
+    color:#FFF;
+}
 
 
 .main-header{
@@ -43,7 +46,7 @@ html{
 }
 .hero{
     min-height: 90vh;
-    background: url('/assets/Images/hero-image.jpg');
+    background: url('../Images/hero-image.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,7 +59,7 @@ html{
 }
 .intro{
     min-height: 100vh;
-    background: url('/assets/Images/into-food.jpg');
+    background: url('../Images/into-food.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,7 +72,7 @@ html{
     height: 30rem;
     width: 30rem;
     font-size:1.5rem;
-    background: url('/assets/Images/rice.jpeg');
+    background: url('../Images/rice.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +90,7 @@ html{
     height: 30rem;
     width: 30rem;
     font-size:1.5rem;
-    background: url('/assets/Images/legumes-militon.jpg');
+    background: url('../Images/legumes-militon.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -104,7 +107,7 @@ html{
     height: 30rem;
     width: 30rem;
     font-size:1.5rem;
-    background: url('/assets/Images/fritay.jpg');
+    background: url('../Images/fritay.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -122,7 +125,7 @@ html{
     height: 30rem;
     width: 30rem;
     font-size:1.5rem;
-    background: url('/assets/Images/fish-food.jpg');
+    background: url('../Images/fish-food.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
